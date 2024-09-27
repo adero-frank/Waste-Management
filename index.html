@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Adero - Amazing & Delicious Food</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">KEEP ENVIRONMENT CLEAN</p>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <nav class="navbar" data-navbar>
+
+       
+
+        <ul class="navbar-list">
+
+          <!-- HOME -->
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Refab</span>
+            </a>
+          </li>
+
+          <!-- MENU -->
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Non Refab</span>
+            </a>
+          </li>
+
+          <!-- ABOUT -->
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">New Submit</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+  
+<!-- Hamburger main menu -->
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+<!-- HERO AND SLIDERS -->
+  <main>
+    <article>
+
+
+
+      <!-- SLIDERS -->
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+          <!-- Slider1 -->
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <!-- <img src="assets/images/dustbin.jpg" width="1880" height="950" alt="" class="img-cover"> -->
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Hygine Matters</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For The Love Our <br>
+                Planet Earth
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Keep the environment clean
+            </p>
+          </li>
+
+          <!-- slider 2 -->
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <!-- <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover"> -->
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">HYGINE MATTERS</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For The Love Of Our <br>
+              Planet Earth
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Keep the environment clean
+            </p>
+          </li>
+
+          <!-- slider3 -->
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <!-- <img src="./assets/images/metalic.jpg" width="1880" height="950" alt="" class="img-cover"> -->
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">HYGINE MATTERS</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For The Love Of Our<br>
+              Planet Earth
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Keep the environment clean
+            </p>
+
+          
+
+          </li>
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        
+
+      </section>
+
+
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Services we offer</p>
+
+          <h2 class="headline-1 section-title">Mighty Earth</h2>
+
+          
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    
+                      <p>Every contribution you make to a cleaner environment earns you rewards! For each successful waste delivery, our system credits you with eco-tokens that can be redeemed for discounts, services, or even donations to environmental causes.</p>
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <p>Eco-Friendly Token Rewards</p>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                      <p>Effortlessly sort your waste with our easy-to-use waste categorization tool. Whether it’s electronics, plastics, utensils, or other waste, our system guides you step-by-step to properly categorize your waste for efficient processing.</p>
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <p>Waste Categorization Services</p>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                      <p>We believe in giving waste a second life! If your waste is refurbishable, simply let us know. Our system ensures that reusable items are processed and refurbished, reducing the need for new materials and minimizing environmental impact.</p>
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <p>Refurbishment & Recycling</p>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="../static/images/logo.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address</strong>:412 Meru</p>
+                 <p><strong>Phone</strong>:+254 111 222 333</p>
+                  <p><strong>Hour</strong>:10:00-18:00 mon-sat </p>
+                  <!-- <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                  </div> -->
+            </div>
+
+            <!-- <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Informatio</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Contact Us</a>
+            </div> -->
+            <div class="copyright">
+                <p>&copy; 2024 eco-recyco</p>
+            </div>
+        </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
